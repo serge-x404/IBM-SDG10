@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-api_key = st.secrets["general"]["AIzaSyArSp6dRABufUVpJ3qy3KXpE1R7ort4F7I"]
+api_key = st.secrets["general"]["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 
 
